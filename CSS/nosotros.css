@@ -1,0 +1,80 @@
+body {
+    
+    background-color: rgb(255, 249, 205);}
+
+header {background-color: rgb(255, 255, 255);}
+
+ul  { list-style-type: none;
+      display: flex;
+      justify-content: space-around;
+      flex-direction: row;
+      margin-bottom: 30px;
+      align-items: center;}
+    
+li  { margin-left: 5px;}
+
+.Logo {width: 380px;
+     margin-top: 30px;
+     margin-left: 30px;}
+
+nav {margin-top: 0px;}
+
+section{margin-top: -35px;}
+
+footer {background-color: rgb(21, 18, 72);
+       color: aliceblue;
+       text-align: center;
+       }       
+
+* {margin:0px;
+   padding: 0px;
+   box-sizing: border-box;
+   font-family: "Milonga", serif;}
+
+.CardsGeneral {display: flex;
+             justify-content: flex-start;
+             flex-direction: column;
+             flex-wrap: wrap;
+             margin-top: 100px;}    
+             
+.Card {width: 98%;
+      background-color: rgb(132, 91, 91);
+      border-radius: 8px;
+      border-style: hidden;
+      box-shadow: 0px 2px 4px rgba(red, green, blue, alpha);
+      display: flex;
+      flex-direction: row;
+      margin: 20px;}
+
+article {margin-right: 7px;
+          font-size: 15px;}      
+    
+.Card img {width: 300px;
+           height: auto;}
+
+.Contenido {padding: 16px;} 
+
+.Contenido h2 {font-size: 24px;
+    text-align: center;
+               margin-left: 10px;
+               margin-bottom: 3px;}
+
+.Contenido p {color: rgb(30, 17, 141);
+            font-size: 14px;
+            } 
+.Contenido .Button {display: inline-block;
+                padding: 8px 16px;
+                background-color: rgba(251, 12, 12, 0.966);
+                text-decoration: none;
+                border-radius: 4px;
+                margin-top: 16px;
+                color: rgb(7, 42, 30);}
+
+
+footer ul{list-style-type: none;
+          margin: 0;
+          padding: 0;
+          display: inline;}
+footer li {display: inline;
+           margin-right: 10px;}
+.futer {margin-right: 15px;}
